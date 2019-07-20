@@ -1,0 +1,74 @@
+// logo
+#logo {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+// header
+#header {
+    // Header home
+    &-home {
+        background: $bg-image no-repeat center right / cover;
+        height: 100vh;
+        color: #fff;
+        // header content
+        .header-content {
+            text-align: center;
+            padding-top: 20%;
+            .heading {
+                margin: auto;
+                width: auto;
+                max-width: 63%;
+            }
+            h1 {
+                font-size: 4rem;
+                line-height: 1.2;
+                text-align: left;
+            }
+            span {
+                color: $main-color;
+            }
+        }
+    }
+
+    // header inner
+    &-inner {
+        background: $bg-image no-repeat 20% 30% / cover;
+        height: 5.5rem;
+        border-bottom: 3px solid $main-color;
+    }
+}
+
+// Main Nav
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding: 1rem 1.5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        border-bottom: 3px transparent solid;
+        padding-bottom: 0.5rem;
+        transition: border-color 0.5s;
+
+        &:hover {
+            border-color: $medium-color;
+        }
+
+        &.current {
+            border-color: $main-color;
+        }
+    }
+}

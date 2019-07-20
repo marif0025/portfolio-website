@@ -1,0 +1,42 @@
+@import "config";
+@import "utilities";
+
+// General Styles
+* {
+    margin: 0;
+    padding: 0;
+    // box-sizing: border-box;
+}
+
+body {
+    font-family: "Dosis", sans-serif;
+    line-height: 1.6;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: $dark-color;
+}
+
+ul {
+    list-style: none;
+}
+
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+@import "header";
+@import "home";
+@import "about";
+@import "work";
+@import "contact";
+@import "footer";
+@import "media";
