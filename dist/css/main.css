@@ -369,6 +369,11 @@ img {
     opacity: 0.7;
     margin: 0; }
 
+#contact-a form {
+  width: 100%;
+  max-width: 768px;
+  margin: auto; }
+
 #contact-a .text-fields {
   display: grid;
   grid-template-areas: "name email" "subject phone" "message message";
@@ -392,7 +397,7 @@ img {
     border-radius: 2px; }
 
 #contact-a button[type="submit"] {
-  width: 50%; }
+  width: 30%; }
 
 #contact-b .contact-info {
   display: grid;

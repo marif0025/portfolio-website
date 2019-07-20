@@ -1,6 +1,11 @@
 // Contact Page
 #contact {
     &-a {
+        form {
+            width: 100%;
+            max-width: 768px;
+            margin: auto;
+        }
         .text-fields {
             display: grid;
             grid-template-areas:
@@ -41,7 +46,7 @@
         }
 
         button[type="submit"] {
-            width: 50%;
+            width: 30%;
         }
     }
 
